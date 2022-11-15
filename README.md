@@ -1,10 +1,10 @@
 # Campeonato Nacional de Hóquei em Patins
 
 ## Cadeira:
-Base de Dados
+- Base de Dados
 
 ## Ano letivo:
-2022/2023
+- 2022/2023
 
 ## Objetivo:
 
@@ -27,6 +27,6 @@ Base de Dados
 
 ## Trabalho Realizado Por:
 
--> Daniel Dória (up202108808)
+- Daniel Dória (up202108808)
 
--> Mariana Conde (up202108824)
+- Mariana Conde (up202108824)
