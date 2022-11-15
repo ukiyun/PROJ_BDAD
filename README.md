@@ -8,6 +8,10 @@ Objetivo:
 
 -> Criar uma base de dados com a capacidade de gerir os resultados do campeonato nacional de hóquei em patins, na época de 2022/2023
 
+<p float="left">
+  <img src="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/580f610b0cf25d916ffdfd64//600.jpg" width="100" />
+  <img src="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61be72810cf2c7ea0f0e36fb/1024" width="100" /> 
+</p>
 
 ![alt text 1](https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/580f610b0cf25d916ffdfd64//600.jpg "Logótipo do Campeonato Nacional") ![alt text 2](https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/61be72810cf2c7ea0f0e36fb/1024 "Stick de Hóquei")
 
