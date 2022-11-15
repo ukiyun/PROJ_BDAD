@@ -1,6 +1,6 @@
 # Campeonato Nacional de Hóquei em Patins
 
-##**Cadeira:** Base de Dados
+##Cadeira: Base de Dados
 
 ##**Ano letivo:** 2022/2023
 
