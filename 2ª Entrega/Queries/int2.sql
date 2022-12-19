@@ -2,4 +2,4 @@
 .headers on
 .nullvalue NULL
 
---Listagem de ? 
+--Listagem de todos os jogadores no campeonato

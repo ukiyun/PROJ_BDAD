@@ -2,4 +2,5 @@
 .headers on
 .nullvalue NULL
 
---Listagem de ? 
+--Quantidade de jogadores nascidos depois de 2000
+

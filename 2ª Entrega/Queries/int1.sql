@@ -2,4 +2,4 @@
 .headers on
 .nullvalue NULL
 
---Listagem de ? 
+--Listagem de todas as equipas no campeonato
