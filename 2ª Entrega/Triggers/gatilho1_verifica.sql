@@ -20,7 +20,9 @@ INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (2, NULL, 2);
 INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (3, '', 3);
 
 
-SELECT * FROM Equipa;
+SELECT * FROM Equipa
+ORDER BY classificação;
+
 
 
 

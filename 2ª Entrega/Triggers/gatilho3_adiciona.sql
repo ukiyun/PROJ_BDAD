@@ -13,3 +13,4 @@ BEGIN
     SELECT RAISE(ABORT, 'Não é possível remover uma equipa que tenha jogadores')
     WHERE EXISTS (SELECT * FROM Jogador WHERE Jogador.idEquipa = OLD.idEquipa);
 END;
+

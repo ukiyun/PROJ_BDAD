@@ -2,7 +2,7 @@
 .headers on
 .nullvalue NULL
 
---Listagem de jogadores com o nome "Pedro Mendes" ordenados por data de nascimento
+--Listagem de jogadores com o nome "Pedro" ordenados por data de nascimento
 
 select nome, dataNasc from Jogador
 where nome in (select nome from Jogador where nome like 'Pedro%')
