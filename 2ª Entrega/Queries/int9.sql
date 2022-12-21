@@ -4,8 +4,7 @@
 
 --Melhor marcador do campeonato
 
-select nome, sum(golos) as golos from Jogador, Jogo
-where Jogador.id = Jogo.id_jogador and Jogo.id_jogador in (select id from Jogador)
-group by nome
-order by golos desc
-limit 1
+select count(*) as golos, nome from Jogador
+where Jogador.idJogador = Golo.idJogador
+group by nome, golos
+order by golos desc limit 1

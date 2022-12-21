@@ -4,4 +4,4 @@
 
 --Média de golos por jogo
 
-select avg(golos) as media from Jogo 
+select avg(golos) as mediaGolos from Jogo where golos is not null 
