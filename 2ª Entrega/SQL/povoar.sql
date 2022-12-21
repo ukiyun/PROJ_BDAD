@@ -176,7 +176,7 @@ INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (133, "Zé Costa
 INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (134, "Diogo Pernas", "19-03-2004", 13);
 INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (135, "Federico Balmaceda", "25-03-1992", 13);
 INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (136, "Rafael Lourenço", "17-01-1998", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (137, "André Gaspar", "29-04-1995", 1, 143);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (137, "André Gaspar", "29-04-1995", 13);
 INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (138, "Ricardo Rocha", "21-03-1995", 13);
 
 -- GRF Murches

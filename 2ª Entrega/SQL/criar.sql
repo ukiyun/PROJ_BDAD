@@ -15,8 +15,8 @@ DROP TABLE IF EXISTS Jogador;
 
 CREATE TABLE Jornada (
     idJornada   INTEGER  PRIMARY KEY,
-    dataInicio  DATE     CONSTRAINT unique_jornada_datainicio UNIQUE,               -- "DD-MM-YYYY"
-    dataFim     DATE     CONSTRAINT unique_jornada_datafim UNIQUE                -- "DD-MM-YYYY"
+    dataInicio  DATE     CONSTRAINT unique_jornada_datainicio NOT NULL,               -- "DD-MM-YYYY"
+    dataFim     DATE     CONSTRAINT unique_jornada_datafim NOT NULL               -- "DD-MM-YYYY"
 );
 
 CREATE TABLE Jogo (
@@ -39,8 +39,7 @@ CREATE TABLE Fase (
 );
 
 CREATE TABLE Evento (
-    idEvento  INTEGER    PRIMARY KEY,
-    minuto    INTEGER    CONSTRAINT nn_evento_minuto NOT NULL               --"Número entre 1 e 90"
+    idEvento  INTEGER    PRIMARY KEY
 );
 
 CREATE TABLE Golo (
