@@ -4,5 +4,6 @@
 
 PRAGMA foreign_keys = ON;
 
-DROP TRIGGER IF EXISTS /* nome do gatilho 2*/;
+DROP TRIGGER IF EXISTS minutos_validos;
+
 

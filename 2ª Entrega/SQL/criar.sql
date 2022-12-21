@@ -22,7 +22,8 @@ CREATE TABLE Jornada (
 CREATE TABLE Jogo (
     idJogo     INTEGER      PRIMARY KEY,
     dataHora   DATETIME        NOT NULL,               -- "DD-MM-YYYY HH:MM:SS"
-    resultado  VARCHAR(5)      NOT NULL                -- "formato = golos1-golos2"
+    resultado  VARCHAR(5)      NOT NULL,                -- "formato = golos1-golos2"
+    jornada  INTEGER         NOT NULL
 );
 
 CREATE TABLE Playoff (
@@ -43,7 +44,11 @@ CREATE TABLE Evento (
 );
 
 CREATE TABLE Golo (
-    idGolo    INTEGER    PRIMARY KEY
+    idGolo     INTEGER    PRIMARY KEY,
+    minuto     INTEGER    NOT NULL,
+    jogador  INTEGER    NOT NULL,
+    jogo     INTEGER    NOT NULL,
+    equipa   INTEGER    NOT NULL
 );
 
 CREATE TABLE Equipa (
@@ -55,5 +60,6 @@ CREATE TABLE Equipa (
 CREATE TABLE Jogador (
     idJogador   INTEGER         PRIMARY KEY,
     nome        VARCHAR(255)    CONSTRAINT nn_jogador_nome NOT NULL,
-    dataNasc    DATE            CONSTRAINT nn_jogador_datanasc NOT NULL
+    dataNasc    DATE            CONSTRAINT nn_jogador_datanasc NOT NULL,
+    equipaJ    INTEGER         NOT NULL
 );

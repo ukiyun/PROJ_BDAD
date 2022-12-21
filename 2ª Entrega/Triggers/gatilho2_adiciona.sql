@@ -4,6 +4,12 @@
 
 PRAGMA foreign_keys = ON;
 
-/* criação de um gatilho que faz etc... */
+--Gatilho para verificar se minuto do golo é válido
 
-CREATE TRIGGER 
+CREATE TRIGGER minutos_validos
+BEFORE INSERT ON Golo
+FOR EACH ROW
+BEGIN
+    SELECT RAISE(ABORT, 'Minuto inválido')
+    WHERE NEW.minuto < 0 OR NEW.minuto > 50;
+END;

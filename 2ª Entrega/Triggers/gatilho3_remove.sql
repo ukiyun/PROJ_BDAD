@@ -4,5 +4,5 @@
 
 PRAGMA foreign_keys = ON;
 
-DROP TRIGGER IF EXISTS /* nome do gatilho 3*/;
+DROP TRIGGER IF EXISTS removerEquipa;
 

@@ -4,6 +4,6 @@
 
 --Listagem de jogadores que jogam na equipa "Sporting" ordenados por idade decrescente
 
-select nome from Jogador where Equipa.nome = 'Sporting CP'
+select nome from Jogador where idEquipa in (select idEquipa from Equipa where nome = "Sporting CP")
 order by dataNasc desc
 
