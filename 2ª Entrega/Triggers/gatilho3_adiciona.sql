@@ -11,6 +11,7 @@ BEFORE DELETE ON Equipa
 FOR EACH ROW
 BEGIN
     SELECT RAISE(ABORT, 'Não é possível remover uma equipa que tenha jogadores')
-    WHERE EXISTS (SELECT * FROM Jogador WHERE Jogador.idEquipa = OLD.idEquipa);
+    WHERE EXISTS (SELECT * FROM Jogador WHERE Jogador.equipaJ = OLD.idEquipa);
 END;
+
 
