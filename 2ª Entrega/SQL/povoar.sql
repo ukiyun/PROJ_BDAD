@@ -16,182 +16,183 @@ INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (14, 'GRF Murches', 
 
 -- Data : Jogador
 -- SL Benfica
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (1, "Bernardo Mendes", "12-03-1999", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (2, "Pedro Henriques", "27-09-1990", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (3, "Diogo Rafael", "17-11-1989", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (4, "Poka", "07-05-1989", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (5, "Edu Lamas", "16-12-1990", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (6, "Nil Roca", "28-09-1997", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (7, "Carlos Nicolía", "04-04-1986", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (8, "Lucas Ordóñez", "21-04-1988", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (9, "Gonçalo Pinto", "14-02-1997", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (10, "Pablo Álvarez", "30-09-1986", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (11, "Roberto Di Benedetto", "08-05-1997", 1);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (12, "Pol Manrubia", "06-07-2000" ,1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (1, "Bernardo Mendes", "1999-03-12", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (2, "Pedro Henriques", "1990-09-27", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (3, "Diogo Rafael", "1989-11-17", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (4, "Poka", "1989-05-07", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (5, "Edu Lamas", "1990-12-16", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (6, "Nil Roca", "1997-09-28", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (7, "Carlos Nicolía", "1986-04-04", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (8, "Lucas Ordóñez", "1988-04-21", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (9, "Gonçalo Pinto", "1997-02-14", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (10, "Pablo Álvarez", "1986-09-30", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (11, "Roberto Di Benedetto", "1997-05-08", 1);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (12, "Pol Manrubia", "2000-07-06" ,1);
 
 -- Sporting CP
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (13, "Zé Diogo Macedo", "17-07-1993", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (14, "Ângelo Girão", "28-08-1989" ,2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (15, "Matías Platero", "17-10-1988", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (16, "Gonzalo Romero", "09-09-1992", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (17, "Henrique Magalhães", "22-10-1991", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (18, "João Almeida", "07-04-1995", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (19, "Ferran Font", "12-11-1996", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (20, "Alessandro Verona", "11-08-1995", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (21, "João Souto", "26-07-1992", 2);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (22, "Toni Pérez", "07-06-1990", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (13, "Zé Diogo Macedo", "1993-07-17", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (14, "Ângelo Girão", "1989-08-28" ,2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (15, "Matías Platero", "1988-10-17", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (16, "Gonzalo Romero", "1992-09-09", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (17, "Henrique Magalhães", "1991-10-22", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (18, "João Almeida", "1995-04-07", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (19, "Ferran Font", "1996-11-12", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (20, "Alessandro Verona", "1995-08-11", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (21, "João Souto", "1992-07-26", 2);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (22, "Toni Pérez", "1990-06-07", 2);
 
 -- OC Barcelos
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (23, "Joka", "21-11-1990", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (24, "Conti Acevedo", "24-06-1997", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (25, "Zé Pedro", "30-03-1990", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (26, "Luís Querido", "22-08-1990", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (27, "André Centeno", "22-03-1986", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (28, "Miguel Vieira", "05-09-1996", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (29, "Darío Giménez", "28-02-1987", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (30, "Danilo Rampulla", "11-03-1999", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (31, "Miguel Rocha", "05-01-1993", 3);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (32, "Alvarinho", "18-04-1996", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (23, "Joka", "1990-11-21", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (24, "Conti Acevedo", "1997-06-24", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (25, "Zé Pedro", "1990-03-30", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (26, "Luís Querido", "1990-08-22", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (27, "André Centeno", "1986-03-22", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (28, "Miguel Vieira", "1996-09-05", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (29, "Darío Giménez", "1987-02-28", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (30, "Danilo Rampulla", "1999-03-11", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (31, "Miguel Rocha", "1993-01-05", 3);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (32, "Alvarinho", "1996-04-18", 3);
 
 -- FC Porto
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (33, "Xavi Malián", "07-09-1989", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (34, "Tiago Rodrigues", "17-08-1998", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (35, "Telmo Pinto", "23-01-1993", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (36, "Xavi Barroso", "14-11-1992", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (37, "Reinaldo Garcia", "15-01-1983", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (38, "Diogo Barata", "24-04-2002", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (39, "Ezequiel Mena", "03-07-1998", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (40, "Rafa", "10-11-1991", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (41, "Carlo di Benedetto", "31-05-1996", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (42, "Roc Pujadas", "25-12-2001", 4);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (43, "Gonçalo Alves", "26-07-1993", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (33, "Xavi Malián", "1989-09-07", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (34, "Tiago Rodrigues", "1998-08-17", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (35, "Telmo Pinto", "1993-01-23", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (36, "Xavi Barroso", "1992-11-14", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (37, "Reinaldo Garcia", "1983-01-15", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (38, "Diogo Barata", "2002-04-24", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (39, "Ezequiel Mena", "1998-07-03", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (40, "Rafa", "1991-11-10", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (41, "Carlo di Benedetto", "1996-05-31", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (42, "Roc Pujadas", "2001-12-25", 4);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (43, "Gonçalo Alves", "1993-07-26", 4);
 
 -- SC Tomar
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (44, "Albert Mola", "17-04-1997", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (45, "António Marante", "00-00-2002", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (46, "Tomás Moreira", "19-02-1997", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (47, "Filipe Almeida", "00-00-1991", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (48, "Pedro Martins", "18-05-1995", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (49, "Guilherme Silva", "24-08-1994", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (50, "Lucas Honório", "05-05-2003", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (51, "Ivo Silva", "20-06-1990", 5);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (52, "Franco Feruccio", "24-11-1997", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (44, "Albert Mola", "1997-04-17", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (45, "António Marante", "2002-00-00", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (46, "Tomás Moreira", "1997-02-19", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (47, "Filipe Almeida", "1991-00-00", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (48, "Pedro Martins", "1995-05-18", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (49, "Guilherme Silva", "1994-08-24", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (50, "Lucas Honório", "2003-05-05", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (51, "Ivo Silva", "1990-06-20", 5);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (52, "Franco Feruccio", "1997-11-24", 5);
 
 -- Famalicense
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (53, "Ricardo Silva", "10-03-1983", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (54, "Manuel Silva", "00-00-2002", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (55, "Juan López", "21-07-1986", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (56, "Gabi Silva", "20-11-1995", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (57, "Carlos Dias", "14-01-2002", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (58, "João Lima", "27-02-1999", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (59, "Thomas Molina", "23-08-2003", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (60, "Joca Guimarães", "10-01-1996", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (61, "Hugo Costa", "05-05-1988", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (62, "Rafael Almeida", "00-00-2002", 6);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (63, "Tomás Castanheira", "26-03-1992", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (53, "Ricardo Silva", "1983-03-10", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (54, "Manuel Silva", "2002-00-00", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (55, "Juan López", "1986-07-21", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (56, "Gabi Silva", "1995-11-20", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (57, "Carlos Dias", "2002-01-14", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (58, "João Lima", "1999-02-27", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (59, "Thomas Molina", "2003-08-23", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (60, "Joca Guimarães", "1996-01-10", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (61, "Hugo Costa", "1988-05-05", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (62, "Rafael Almeida", "2002-00-00", 6);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (63, "Tomás Castanheira", "1992-03-26", 6);
 
 -- Juventude de Viana
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (64, "Carlitos", "23-07-1997", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (65, "Bruno Guia", "20-02-1998", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (66, "Rémi Herman", "04-10-1997", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (67, "João Pedro", "09-04-1999", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (68, "Nanu Castro", "14-10-2001", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (69, "Rúben Sousa", "02-06-1992", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (70, "Andrés Castaño", "17-07-2001", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (71, "Pedro Delgado", "18-12-1993", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (72, "Diogo Casanova", "23-01-1996", 7);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (73, "Pedro Batista", "09-09-19, 897", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (64, "Carlitos", "1997-07-23", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (65, "Bruno Guia", "1998-02-20", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (66, "Rémi Herman", "1997-10-04", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (67, "João Pedro", "1999-04-09", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (68, "Nanu Castro", "2001-10-14", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (69, "Rúben Sousa", "1992-06-02", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (70, "Andrés Castaño", "2001-07-17", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (71, "Pedro Delgado", "1993-12-18", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (72, "Diogo Casanova", "1996-01-23", 7);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (73, "Pedro Batista", "1997-09-09", 7);
 
 -- HC Braga
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (74, "Tomás Teixeira", "07-05-2004", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (75, "Nélson Filipe", "05-11-1984", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (76, "António Trabulo", "25-02-1999", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (77, "Gonçalo Meira", "19-05-1998", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (78, "Diogo Seixas", "04-12-1996", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (79, "Pedro Mendes", "04-01-1993", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (80, "Tomas Korosec", "30-03-1998", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (81, "Tiago Almeida", "23-08-1998", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (82, "Vítor Hugo", "23-10-1984", 8);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (83, "Rúben Pereira", "09-05-1990", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (74, "Tomás Teixeira", "2004-05-07", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (75, "Nélson Filipe", "1984-11-05", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (76, "António Trabulo", "1999-02-25", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (77, "Gonçalo Meira", "1998-05-19", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (78, "Diogo Seixas", "1996-12-04", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (79, "Pedro Mendes", "1993-01-04", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (80, "Tomas Korosec", "1998-03-30", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (81, "Tiago Almeida", "1998-08-23", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (82, "Vítor Hugo", "1984-10-23", 8);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (83, "Rúben Pereira", "1990-05-09", 8);
 
 -- Riba D'Ave
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (84, "Tomás Teixeira", "07-05-2004", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (85, "Nélson Filipe", "05-11-1984", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (86, "António Trabulo", "25-02-1999", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (87, "Gonçalo Meira", "19-05-1998", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (88, "Diogo Seixas", "04-12-1996", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (89, "Pedro Mendes", "04-01-1993", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (90, "Tomas Korosec", "30-03-1998", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (91, "Tiago Almeida", "23-08-1998", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (92, "Vítor Hugo", "23-10-1984", 9);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (93, "Rúben Pereira", "09-05-1990", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (84, "Álvaro Shehda", "1992-04-03", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (85, "José Nunes", "2001-01-28", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (86, "Carlos Loureiro", "1997-01-12", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (87, "Iñigo Artacho", "1996-12-16", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (88, "Daniel Pinheiro", "1997-12-30", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (89, "Anderson Nery", "1992-12-07", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (90, "Pedro Silva", "1998-00-00", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (91, "Hugo Barata", "1998-02-04", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (92, "Franco Pósito", "2000-11-11", 9);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (93, "Gustavo Pato", "2001-03-07", 9);
 
 -- UD Oliveirense
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (94, "Diogo Alves", "17-02-1995", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (95, "Diogo Fernandes", "11-12-1994", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (96, "Nuno Araújo", "05-06-1988", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (97, "Tomás Pereira", "03-12-1999", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (98, "Xavier Cardoso", "14-02-1995", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (99, "Franco Platero", "22-07-1992", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (100, "Xanoca Marques", "02-08-1994", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (101, "Jordi Adroher", "22-11-1984", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (102, "Marc Torra", "15-09-1984", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (103, "Jorge Silva", "09-05-1984", 10);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (104, "Lucas Martínez", "02-05-1988", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (94, "Diogo Alves", "1995-02-17", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (95, "Diogo Fernandes", "1994-12-11", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (96, "Nuno Araújo", "1988-06-05", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (97, "Tomás Pereira", "1999-12-03", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (98, "Xavier Cardoso", "1995-02-14", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (99, "Franco Platero", "1992-07-22", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (100, "Xanoca Marques", "1994-08-02", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (101, "Jordi Adroher", "1984-11-22", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (102, "Marc Torra", "1984-09-15", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (103, "Jorge Silva", "1984-05-09", 10);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (104, "Lucas Martínez", "1988-05-02", 10);
 
 -- AD Valongo
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (105, "Gonçalo Bento", "25-07-2003", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (106, "Xano Edo", "18-07-2001", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (107, "Francisco Silva", "27-02-1990", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (108, "Gabriel Azevedo", "29-04-2002", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (109, "Carlos Ramos", "19-04-2000", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (110, "Nuno Santos", "16-06-1996", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (111, "Diogo Abreu", "06-03-2001", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (112, "Martim Leite", "30-07-2003", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (113, "Facundo Bridge", "07-07-1999", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (114, "Miguel Moura", "28-09-2000", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (115, "Rafael Bessa", "10-12-2000", 11);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (116, "Facundo Navarro", "26-04-2000", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (105, "Gonçalo Bento", "2003-07-25", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (106, "Xano Edo", "2001-07-18", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (107, "Francisco Silva", "1990-02-27", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (108, "Gabriel Azevedo", "2002-04-29", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (109, "Carlos Ramos", "2000-04-19", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (110, "Nuno Santos", "1996-06-16", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (111, "Diogo Abreu", "2001-03-06", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (112, "Martim Leite", "2003-07-30", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (113, "Facundo Bridge", "1999-07-07", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (114, "Miguel Moura", "2000-09-28", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (115, "Rafael Bessa", "2000-12-10", 11);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (116, "Facundo Navarro", "2000-04-26", 11);
 
 -- CD Paço de Arcos
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (117, "Diogo Rodrigues", "04-04-1994", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (118, "Alexandre Ferreira", "20-01-1994", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (119, "Tiago Gouveia", "05-11-1993", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (120, "Gonçalo Nunes", "01-11-1998", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (121, "Pedro Vaz", "12-01-1992", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (122, "André Ferreira", "20-01-1994", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (123, "Ricardo Barreiros", "17-01-1982", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (124, "Diogo Alves", "29-08-1990", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (125, "João Sardo", "15-02-1996", 12);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (126, "Bruno Frade", "08-01-2000", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (117, "Diogo Rodrigues", "1994-04-04", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (118, "Alexandre Ferreira", "1994-01-20", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (119, "Tiago Gouveia", "1993-11-05", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (120, "Gonçalo Nunes", "1998-1101-", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (121, "Pedro Vaz", "1992-01-12", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (122, "André Ferreira", "1994-01-20", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (123, "Ricardo Barreiros", "1982-01-17", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (124, "Diogo Alves", "1990-08-29", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (125, "João Sardo", "1996-02-15", 12);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (126, "Bruno Frade", "2000-01-08", 12);
 
 -- Parede FC
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (127, "António Mendonça", "02-01-1996", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (128, "Guilherme Pedruco", "20-10-1995", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (129, "Mathias Arnáez", "30-12-1994", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (130, "Bernardo Pinto", "07-10-1994", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (131, "Joka Alves", "27-05-1993", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (132, "Manuel Coimbra", "12-08-1997", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (133, "Zé Costa", "28-03-1997", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (134, "Diogo Pernas", "19-03-2004", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (135, "Federico Balmaceda", "25-03-1992", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (136, "Rafael Lourenço", "17-01-1998", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (137, "André Gaspar", "29-04-1995", 13);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (138, "Ricardo Rocha", "21-03-1995", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (127, "António Mendonça", "1996-01-02", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (128, "Guilherme Pedruco", "1995-10-20", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (129, "Mathias Arnáez", "1994-12-30", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (130, "Bernardo Pinto", "1994-10-07", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (131, "Joka Alves", "1993-05-27", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (132, "Manuel Coimbra", "1997-08-12", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (133, "Zé Costa", "1997-03-28", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (134, "Diogo Pernas", "2004-03-19", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (135, "Federico Balmaceda", "1992-03-25", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (136, "Rafael Lourenço", "1998-01-17", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (137, "André Gaspar", "1995-04-29", 13);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (138, "Ricardo Rocha", "1995-03-21", 13);
 
 -- GRF Murches
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (139, "Daniel Machial", "07-11-1998", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (140, "Rodrigo Vieira", "28-12-2002", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (141, "João Tigeleiro", "06-02-2002", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (142, "Zé Miranda", "12-11-2003", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (143, "Tomás Cardaso", "19-07-1999", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (144, "João Maló", "20-05-2000", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (145, "Miguel Feio", "09-07-1999", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (146, "Paulinho", "12-01-2001", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (147, "Filipe Bernardino", "28-08-1989", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (148, "Bernardo Sousa", "17-12-1999", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (149, "António Estrela", "01-02-1999", 14);
-INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (150, "Diogo David", "03-03-2000", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (139, "Daniel Machial", "1998-11-07", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (140, "Rodrigo Vieira", "2002-12-28", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (141, "João Tigeleiro", "2002-02-06", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (142, "Zé Miranda", "2003-11-12", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (143, "Tomás Cardoso", "1999-07-19", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (144, "João Maló", "2000-05-20", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (145, "Miguel Feio", "1999-07-09", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (146, "Paulinho", "2001-01-12", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (147, "Filipe Bernardino", "1989-08-28", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (148, "Bernardo Sousa", "1999-12-17", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (149, "António Estrela", "1999-02-01", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (150, "Diogo David", "2000-03-03", 14);
+INSERT INTO Jogador (idJogador, nome, dataNasc, equipaJ) VALUES (151, "Bernardo Ramalho", "2003-07-23", 14);
 
 
 -- 1ª Jornada

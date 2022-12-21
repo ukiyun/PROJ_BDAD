@@ -2,10 +2,6 @@
 .headers on
 .nullvalue NULL
 
---Listagem de jogadores cujo nome contém "X" ordenados por nome do jogador
+--Partida com o maior número de golos de todas as jornadas
 
-select nome from Jogador
-where nome like '%X%'
-order by nome
-
-
+select max(resultado) from Jogo
