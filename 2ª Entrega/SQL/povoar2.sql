@@ -1,17 +1,17 @@
 -- Data : Equipa
 INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (1, 'SL Benfica', 1);
 INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (2, 'Sporting CP', 2);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (3, 'OC Barcelos', 3);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (4, 'FC Porto', 4);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (5, 'SC Tomar', 5);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (6, 'Famalicense', 6);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (7, 'Juventude de Viana', 7);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (8, 'HC Braga', 8);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (9, "Riba D'Ave", 9);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (10, 'UD Oliveirense', 10);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (11, 'AD Valongo', 11);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (3, 'OC Barcelos', 4);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (4, 'FC Porto', 3);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (5, 'SC Tomar', 7);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (6, 'Famalicense', 11);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (7, 'Juventude de Viana', 13);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (8, 'HC Braga', 9);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (9, "Riba D'Ave", 10);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (10, 'UD Oliveirense', 8);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (11, 'AD Valongo', 5);
 INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (12, 'CD Paços de Arcos', 12);
-INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (13, 'Parede FC', 13);
+INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (13, 'Parede FC', 6);
 INSERT INTO Equipa (idEquipa, nome, classificação) VALUES (14, 'GRF Murches', 14);
 
 -- Data : Jogador
@@ -192,3 +192,124 @@ INSERT INTO Jogador (idJogador, nome, dataNasc) VALUES (147, "Filipe Bernardino"
 INSERT INTO Jogador (idJogador, nome, dataNasc) VALUES (148, "Bernardo Sousa", "17-12-1999");
 INSERT INTO Jogador (idJogador, nome, dataNasc) VALUES (149, "António Estrela", "01-02-1999");
 INSERT INTO Jogador (idJogador, nome, dataNasc) VALUES (150, "Diogo David", "03-03-2000");
+
+
+-- 1ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (1, "17-09-2022", "21-09-2022");
+
+-- Jogos 1ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (1, "17-09-2022 17:00:00", "5-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (2, "17-09-2022 18:00:00", "1-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (3, "17-09-2022 18:00:00", "3-3");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (4, "17-09-2022 18:00:00", "4-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (5, "17-09-2022 21:30:00", "3-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (6, "18-09-2022 15:00:00", "4-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (7, "21-09-2022 21:00:00", "4-2");
+
+-- 2ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (2, "23-09-2022", "19-11-2022");
+
+-- Jogos 2ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (8, "23-09-2022 20:00:00", "3-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (9, "24-09-2022 18:00:00", "1-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (10, "24-09-2022 18:00:00", "7-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (11, "24-09-2022 18:30:00", "1-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (12, "24-09-2022 21:00:00", "4-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (13, "28-09-2022 20:00:00", "5-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (14, "19-11-2022 21:00:00", "1-3");
+
+-- 3ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (3, "28-09-2022", "22-11-2022");
+
+-- Jogos 3ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (15, "28-09-2022 20:30:00", "3-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (16, "01-10-2022 17:00:00", "5-3");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (17, "01-10-2022 18:00:00", "6-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (18, "01-10-2022 21:00:00", "2-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (19, "02-10-2022 15:00:00", "3-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (20, "02-10-2022 16:00:00", "7-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (21, "22-11-2022 21:00:00", "1-3");
+
+-- 4ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (4, "05-10-2022", "05-10-2022");
+
+-- Jogos 4ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (22, "05-10-2022 15:00:00", "5-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (23, "05-10-2022 15:00:00", "5-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (24, "05-10-2022 16:00:00", "2-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (25, "05-10-2022 17:00:00", "4-3");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (26, "05-10-2022 18:00:00", "8-3");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (27, "05-10-2022 18:00:00", "6-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (28, "05-10-2022 18:30:00", "6-1");
+
+-- 5ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (5, "08-10-2022", "22-11-2022");
+
+-- Jogos 5ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (29, "08-10-2022 15:00:00", "7-0");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (30, "08-10-2022 18:00:00", "1-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (31, "08-10-2022 18:30:00", "3-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (32, "08-10-2022 18:30:00", "2-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (33, "08-10-2022 21:00:00", "7-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (34, "15-10-2022 18:00:00", "3-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (35, "22-11-2022 20:30:00", "3-0");
+
+-- 6ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (6, "26-11-2022", "27-11-2022");
+
+-- Jogos 6ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (36, "26-11-2022 15:00:00", "6-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (37, "26-11-2022 16:00:00", "4-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (38, "26-11-2022 17:00:00", "1-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (39, "26-11-2022 18:00:00", "3-0");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (40, "26-11-2022 19:00:00", "5-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (41, "26-11-2022 21:00:00", "4-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (42, "27-11-2022 12:00:00", "5-4");
+
+-- 7ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (7, "30-11-2022", "01-12-2022");
+
+-- Jogos 7ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (43, "30-11-2022 20:00:00", "2-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (44, "01-12-2022 15:00:00", "1-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (45, "01-12-2022 15:30:00", "3-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (46, "01-12-2022 18:00:00", "1-4");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (47, "01-12-2022 18:00:00", "7-3");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (48, "01-12-2022 18:00:00", "1-0");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (49, "01-12-2022 18:30:00", "1-0");
+
+-- 8ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (8, "04-12-2022", "04-12-2022");
+
+-- Jogos 8ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (50, "04-11-2022 15:00:00", "3-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (51, "04-12-2022 16:00:00", "4-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (52, "04-12-2022 17:00:00", "9-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (53, "04-12-2022 17:00:00", "8-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (54, "04-12-2022 18:00:00", "4-2");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (55, "04-12-2022 18:30:00", "3-1");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (56, "04-12-2022 18:30:00", "5-3");
+
+-- 9ª Jornada
+INSERT INTO Jornada (idJornada, dataInicio, dataFim) VALUES (9, "08-12-2022", "09-12-2022");
+
+-- Jogos 9ª Jornada
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (57, "08-11-2022 15:00:00", "2-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (58, "08-12-2022 16:00:00", "3-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (59, "08-12-2022 17:00:00", "6-7");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (60, "08-12-2022 18:00:00", "2-5");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (61, "08-12-2022 18:00:00", "4-8");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (62, "08-12-2022 18:30:00", "3-6");
+INSERT INTO Jogo (idJogo, dataHora, resultado) VALUES (63, "09-12-2022 21:30:00", "2-0");
+
+-- Uma vez que a época 2022/23 do campeonato de hóquei em patins ainda não terminou,
+-- vamos assumir que a época normal tem apenas 9 jornadas e vão-se iniciar agora os
+-- playoffs passando as 8 primeiras equipas que estão atualmente nos 8 primeiros lugares,
+-- e os 3 útlimos lugares são despromovidos para a 2ª divisão
+
+-- 1º Playoff
+
+INSERT INTO Playoff (idPlayoff, dia, ronda) VALUES (1, "15-01-2022", "Quartos de final");
+
+-- 1ª Fase
+INSERT INTO Fase (idFase, mão, resultado) VALUES (1, 1, "2-0");

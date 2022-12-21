@@ -2,4 +2,6 @@
 .headers on
 .nullvalue NULL
 
---Listagem de ? 
+--Média de golos por jogo
+
+select avg(golos) as media from Jogo 
